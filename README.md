@@ -1,19 +1,19 @@
 # microservices - nodejs
 
-The whole projects consists of 4 individual sub projects.
+The whole project consists of 4 individual sub projects.
 
 ## Directories
 
-1. Conference App
+1. [Conference App](https://github.com/Top-Dev-Ops/microservices-nodejs/tree/main/conference-app)
 
     Frontend written in NodeJS and PUG that shows the landing page, all speakers and feedbacks by communicating with microservices.
-2. Service Registry
+2. [Service Registry](https://github.com/Top-Dev-Ops/microservices-nodejs/tree/main/service-registry)
 
     NodeJS application which registers, unregisters and returns the information about microservices such as service name, service version, ip addr and port where they are running at. 
-3. Speakers Service
+3. [Speakers Service](https://github.com/Top-Dev-Ops/microservices-nodejs/tree/main/speakers-service)
 
     Microservice written in NodeJS, which returns all speakers' information and artworks.
-4. Feedback Service
+4. [Feedback Service](https://github.com/Top-Dev-Ops/microservices-nodejs/tree/main/feedback-service)
 
     Microservice written in NodeJS, which returns all feedbacks and functionality for adding feedback.
 
